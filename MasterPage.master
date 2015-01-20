@@ -1,0 +1,85 @@
+﻿<%@ Master Language="VB" CodeFile="MasterPage.master.vb" Inherits="MasterPage" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <meta name="keywords" content="" />
+<meta name="description" content="" />
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>Regeneracy    by Free CSS Templates</title>
+<link href="style.css" rel="stylesheet" type="text/css" media="screen" />
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .style1
+        {
+            width: 100%;
+        }
+        .style2
+        {
+        }
+        .style3
+        {
+            width: 149px;
+        }
+        .style4
+        {
+            width: 152px;
+        }
+    </style>
+</head>
+
+<body>
+<form id="form2" runat="server">
+    
+<div id="wrapper">
+	<div id="header-wrapper">
+		<div id="header">
+			<div id="logo">
+				<h1><a href="#">Regeneracy  </a></h1>
+				<p> design by <a href="http://www.freecsstemplates.org/">Free CSS Templates</a></p>
+			</div>
+			<div id="menu">
+				<ul>
+					<li class="current_page_item"><a href="#">Home</a></li>
+					<li><a href="#">Blog</a></li>
+					<li><a href="#">Photos</a></li>
+					<li><a href="#">About</a></li>
+					<li><a href="#">Links</a></li>
+					<li><a href="#">Contact</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<!-- end #header -->
+	<div id="page">
+		<div id="page-bgtop">
+			<div id="page-bgbtm">
+				<div id="content">
+					<div class="post">
+						<h2 class="title"><a href="#">Welcome to Regeneracy  </a></h2>
+						<!--<p class="meta"><span class="date">May 10, 2010</span><span class="posted">Posted by <a href="#">Someone</a></span></p>-->
+						<div style="clear: both;">&nbsp;</div>
+                        <div>
+        <asp:ContentPlaceHolder id="ContentPlaceHolder2" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>
+    
+						</div>
+                        </div>
+				<div style="clear: both;">&nbsp;</div>
+			</div>
+		</div>
+	</div>
+   
+	<!-- end #page -->
+</div>
+<div id="footer">
+	<p>Copyright (c) 2008 Sitename.com. All rights reserved. Design by <a href="http://www.freecsstemplates.org/">Free CSS Templates</a>.</p>
+</div>
+<!-- end #footer -->
+</form>
+</body>
+</html>
